@@ -22,7 +22,7 @@ export function Editar () {
         const getOne = async () => {
             setCarregando(true)
 
-            await fetch(`http://localhost:3000/caminhoes/getone/${id}`,{
+            await fetch(`http://localhost:3001/caminhoes/getone/${id}`,{
             method:'GET',
             headers: {"Content-Type": "application/json"},
             
@@ -77,7 +77,7 @@ export function Editar () {
         event.preventDefault();
         setCarregando(true);
 
-        await fetch(`http://localhost:3000/caminhoes/update/${data.id}`,{
+        await fetch(`http://localhost:3001/caminhoes/update/${data.id}`,{
             method:'PUT',
             headers: {"Content-Type": "application/json"},
             body: JSON.stringify ({

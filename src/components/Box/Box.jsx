@@ -36,7 +36,7 @@ export function Box ({id, apelido, placa, ano, cor, rendimento}) {
         setNewDelete(false);
         setError(false)
         
-        await fetch(`http://localhost:3000/caminhoes/delete/${id}`,{
+        await fetch(`http://localhost:3001/caminhoes/delete/${id}`,{
             method:'DELETE',
             headers: {"Content-Type": "application/json"},
             

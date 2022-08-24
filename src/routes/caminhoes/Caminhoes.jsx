@@ -23,7 +23,7 @@ export function Caminhoes () {
             setCarregando(true);
             setError(false);
 
-            await fetch('http://localhost:3000/caminhoes',{
+            await fetch('http://localhost:3001/caminhoes',{
             method:'GET',
             headers: {"Content-Type": "application/json"},
             

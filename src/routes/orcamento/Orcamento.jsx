@@ -25,7 +25,7 @@ export function Orcamento () {
         const getLocalidades = async (event) => {
             setCarregando(true)
     
-            await fetch(`http://localhost:3000/localidades`,{
+            await fetch(`http://localhost:3001/localidades`,{
                 method:'GET',
                 headers: {"Content-Type": "application/json"},
                  
@@ -53,7 +53,7 @@ export function Orcamento () {
         const getCaminhao = async (event) => {
             setCarregando(true)
     
-            await fetch(`http://localhost:3000/caminhoes`,{
+            await fetch(`http://localhost:3001/caminhoes`,{
                 method:'GET',
                 headers: {"Content-Type": "application/json"},
                 

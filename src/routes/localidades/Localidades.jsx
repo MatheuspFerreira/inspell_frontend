@@ -30,7 +30,7 @@ export function Localidades () {
       setErrorData(false)
       setNewData([])
       
-      await fetch('http://localhost:3000/localidades/create',{
+      await fetch('http://localhost:3001/localidades/create',{
         method:'POST',
         headers: {"Content-Type": "application/json"},
         body: JSON.stringify ({
