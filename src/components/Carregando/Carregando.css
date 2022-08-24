@@ -1,0 +1,13 @@
+
+.carregando__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.carregando__content p {
+    font-size: 20px;
+    
+}

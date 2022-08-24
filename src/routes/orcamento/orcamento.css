@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.Orcamento__container {
+    width: 80%;
+    padding: 2% 5%;
+    height: auto;
+    min-height: 100vh;
+    margin: 0 10%;
+    background-color: rgb(230, 230, 230);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+span {
+    font-weight: bold;
+    
+}
+
+.Orcamento__form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 270px;
+    margin-top: 30px;
+
+}
+
+.Orcamento__container label {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 16px;
+   
+}
+
+.Orcamento__container input {
+    width: 250px;
+    border-radius: 20px;
+   padding: 0;
+   font-size: 16px;
+   margin-bottom: 10px;
+   text-align: center;
+    
+}
+
+input[type=number]::-webkit-inner-spin-button { 
+    -webkit-appearance: none;
+    
+}
+
+input[type=number] { 
+   -moz-appearance: textfield;
+   appearance: textfield;
+
+}
+
+.Orcamento__button button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 220px;
+    
+}
+
+.--Disable {
+    display: none;
+
+}
+
+.Orcamento__alert {
+    margin: 30px 0; 
+   
+}
+
+.Orcamento__option  {
+    width: 250px;
+    height: 30px;
+    color: black;
+    display: flex;
+    text-align: center;
+    border-radius: 20px;
+    font-size: 16px;
+    margin-bottom: 10px;
+
+}
+
+.Orcamento__display {
+    width: 40%;
+    min-width: 280px;
+    height: auto;
+    margin: 0 10%;
+    padding: 20px 0;
+    border-radius: 20px;
+
+}
+
+.Orcamento__display ul {
+    width: 100%;
+    min-width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    padding: 30px 20px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 2px 4px 20px 2px rgba(0,0,0,0.41);
+    
+}
+
+.Orcamento__display li {
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    border: 2px solid black;
+    padding: 3px 25px;
+    padding-top: 20px;
+    border-radius: 10px;
+    
+}
+
+.Orcamento__span  {
+    font-size: 18px;
+    text-decoration: initial;
+
+}
+
+@media screen and (max-width: 950px) {
+    .Orcamento__container {
+        text-align: center;
+        padding: 0 10px;
+
+    }
+
+    .Orcamento__display {
+        min-width: 290px;
+        
+
+    }
+
+    .Orcamento__container h1 {
+        font-size: 26px;
+        
+    }
+
+    .Orcamento__container h2 {
+        font-size: 20px;
+        margin: 5px 0;
+
+    }
+
+    .Orcamento__display li {
+        font-size: 17px;
+        
+        
+        
+        
+    }
+    
+}
+
+@media screen and (max-width: 460px) {
+    .Orcamento__container {
+        width: 100%;
+        margin: 0;
+
+    }
+    
+}
+
+
+
+

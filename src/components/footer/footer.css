@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.Footer__container {
+    width:100%;
+    height: 100px;
+    background-color: #1c202c;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+
+}
+
+.Footer__container h1 {
+    color: white;
+    font-size: 21px;
+    
+}

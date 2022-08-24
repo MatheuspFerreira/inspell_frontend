@@ -1,0 +1,76 @@
+.Localidades__container {
+    width: 80%;
+    padding: 2% 5%;
+    height: 100vh;
+    margin:0 10%;
+    background-color: rgb(230, 230, 230);
+
+}
+
+.Localidades__firstContent {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    margin-top: 50px;
+    
+}
+
+.Localidades__firstContent h1 {
+    font-size: 20px;
+
+}
+
+.Localidades__alert {
+    width: 100%;
+    max-width: 350px;
+    height: auto;
+    text-align: center;
+
+}
+
+@media screen and (max-width: 950px) {
+    .Localidades__container {
+        text-align: center;
+        
+
+    }
+
+    .Localidades__display {
+        min-width: 290px;
+        padding: 0;
+
+    }
+    
+}
+
+@media screen and (max-width: 460px) {
+    .Localidades__container {
+        width: 100%;
+        margin: 0;
+
+    }
+
+    .Localidades__container li {
+        display: inline-block;
+
+    }
+
+    .Localidades__container h1 {
+        font-size: 26px;
+
+    }
+
+    .Localidades__firstContent h1 {
+        font-size: 20px;
+        
+    }
+
+    .Localidades__container h2 {
+        font-size: 21px;
+        margin: 5px 0;
+
+    }
+
+    
+    
+}

@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Editar__container {
+    width: 80%;
+    padding: 2% 5%;
+    height: auto;
+    min-height: 100vh;
+    margin: 0 10%;
+    background-color: rgb(230, 230, 230);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+span {
+    font-weight: bold;
+    
+}
+
+.Editar__form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 270px;
+    margin-top: 30px;
+    
+}
+
+.Editar__container label {
+    font-weight: bold;
+    font-size: 16px;
+   
+}
+
+.Editar__container input {
+   border-radius: 20px;
+   padding-left: 15px;
+   font-size: 16px;
+   width: 250px;
+   margin-bottom: 10px;
+    
+}
+
+input[type=number]::-webkit-inner-spin-button { 
+    -webkit-appearance: none;
+    
+}
+
+input[type=number] { 
+   -moz-appearance: textfield;
+   appearance: textfield;
+
+}
+
+.Editar__button {
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+
+}
+
+.--Disable {
+    display: none;
+
+}
+
+.Editar__alert {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 100px;
+   
+}
+
+@media screen and (max-width: 950px) {
+    .Editar__container {
+        text-align: center;
+
+    }
+
+    .Editar__container h1 {
+        font-size: 26px;
+        
+    }
+
+    .Editar__container h2 {
+        font-size: 20px;
+        margin: 5px 0;
+
+    }
+    
+
+}
+
+@media screen and (max-width: 460px) {
+    .Editar__container {
+        width: 100%;
+        margin: 0;
+
+    }
+     
+}
